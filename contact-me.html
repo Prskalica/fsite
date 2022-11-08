@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+
+  <body>
+    <h4>My Contact details</h4>
+    <p>Davor Prskalica</p>
+    <p>info@davor.com</p>
+    <hr />
+    <h4>Submit your personal information</h4>
+
+    <form action="mailto:davore.nikolicu@gmail.com" method="post" enctype="text/plain"> 
+        <!-- "action" sta da uradi se, 
+             "method" sta da se uradi sa infomracijom dole, u ovom slucaju da se u email prenese "post",
+            "enctype" je entcryption type i govor da sve treba da se prenese kao obican tekst, inace imas svakave znakove  -->
+      <label for="vname">Your name:</label>
+      <input type="text" name="vname" value=""/><br />
+<!-- "name" kada upises naziv onda ce u email sav tekst pod ovim "input" da bude kategoriziran 
+    pod naziom kog si stavio tako da se lakse snadjes. -->
+      <label for="vemail">Your email:</label>
+      <input type="email" name="vemail" value=""/><br />
+
+      <label for="vmessage">Your Message:</label><br>
+      <textarea name="vmessage" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" value="Submit" />
+
+    </form>
+  </body>
+</html>
