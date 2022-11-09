@@ -1,19 +1,19 @@
 body{
-    background-color: #9ED5C5;
+    background-color: #CDFCF6;
   }
 
   hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: #BCEAD5; 
+    border-color: #FEB139; 
     border-width: 3px;
     width: 2%;
   }
   h1 {
-    color: #0E5E6F;
+    color: #7FB77E;
   }
   h3 {
-    color: #3A8891;
+    color: #CED89E;
   }
   table.headerindex{
     margin-left: auto;
