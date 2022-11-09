@@ -1,6 +1,7 @@
 body{
     background-color: #CDFCF6;
     color: #3F4E4F;
+    font-family: Lato;
   }
 
   hr{
@@ -10,8 +11,16 @@ body{
     border-width: 3px;
     width: 2%;
   }
+  a:link, a:visited{
+    text-decoration: none;
+    color: #3F4E4F;
+  }
+  a:hover{
+    color: silver;
+  }
   h1 {
     color: #65C18C;
+  
   }
   h3 {
     color: #65C18C;
@@ -20,21 +29,21 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 25%;
+    width: 30%;
   }
   table.work{
     height: 20px;
-    width: 25%;
+    width: 30%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
   }
-  th{
+  th.a, th.b{
     text-align: left;
   }
   table.skills{
     height: 20px;
-    width: 25%;
+    width: 30%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
