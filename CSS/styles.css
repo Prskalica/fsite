@@ -25,11 +25,27 @@ body{
   h3 {
     color: #65C18C;
   }
+  ul {
+    list-style-type: circle;
+  }
   table.headerindex{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 30%;
+  }
+  table.titlehobies{
+    height: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myhobies{
+    height: 20px;
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   table.work{
     height: 20px;
