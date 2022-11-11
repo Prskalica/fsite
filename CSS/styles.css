@@ -7,7 +7,7 @@ body{
   hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: #FFC074; 
+    border-color: #E6E5A3; 
     border-width: 3px;
     width: 2%;
   }
@@ -19,11 +19,11 @@ body{
     color: silver;
   }
   h1 {
-    color: #65C18C;
+    color: #557153;
   
   }
   h3 {
-    color: #65C18C;
+    color: #557153;
     text-align: center;
   }
   ul {
