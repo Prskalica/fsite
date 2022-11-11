@@ -1,3 +1,13 @@
+/*****************TAG SELECTOR*****************/
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #3F4E4F;
+}
+a:hover{
+  color: silver;
+}
+
 body{
     background-color: #CDFCF6;
     color: #3F4E4F;
@@ -11,56 +21,56 @@ body{
     border-width: 3px;
     width: 2%;
   }
-  a:link, a:visited{
-    text-decoration: none;
-    color: #3F4E4F;
-  }
-  a:hover{
-    color: silver;
-  }
+  
   h1 {
     color: #557153;
   
   }
+  
   h3 {
     color: #557153;
     text-align: center;
   }
+  
   ul {
     list-style-type: circle;
   }
-  table.headerindex{
+  
+  /*****************CLASS SELECTOR*****************/
+    
+  .headerindex{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 30%;
   }
-  table.titlehobies{
+  .titlehobies{
     height: 20px;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
-  table.myhobies{
+  .myhobies{
     height: 20px;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
-  table.work{
+  .work{
     height: 20px;
     width: 30%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
   }
-  th.a, th.b{
+  .a, .b{
     text-align: left;
   }
-  table.skills{
+  .skills{
     height: 20px;
     width: 30%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
   }
+  /*****************ID SELECTOR*****************/
